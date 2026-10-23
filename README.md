@@ -4,7 +4,7 @@ A responsive, buildless redesign of the supplied Babylon HTML. The visual direct
 
 ## Open and edit
 
-The finished page is `dist/index.html`, with `dist/styles.css`, `dist/app.js`, and images in `dist/assets/`. Open the HTML directly, or run `node server.mjs` and visit `http://127.0.0.1:4173`.
+The finished page is `dist/index.html`, with `dist/styles.css`, `dist/app.js`, and images in `dist/assets/`. With Node.js 20.11 or newer, run `npm run dev` and visit `http://127.0.0.1:4173`. You can also open the HTML directly or run `node server.mjs`. Use `npm start` to start the same local server.
 
 No package installation or build step is required. Fonts load from Google Fonts, with system fallbacks. The supplied source is preserved as `original.html`.
 
